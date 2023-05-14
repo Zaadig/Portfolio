@@ -1,0 +1,23 @@
+.introduction {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+    max-width: 50%;
+    margin-left: 50px; /* adjust as needed */
+}
+
+.introduction h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.introduction h2 {
+    color: darkcyan;
+    font-size: 2em;
+}
+
+.introduction p {
+    line-height: 1.6;
+    font-size: 1.3em;
+}

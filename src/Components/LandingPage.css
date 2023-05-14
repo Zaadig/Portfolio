@@ -1,0 +1,41 @@
+body {
+    overflow-x: hidden;
+  }
+  
+  .split-screen {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left, .right {
+    flex: 1;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .left {
+    background: url('./Visuals/BlackWings.jpg') no-repeat center center/cover;
+  }
+  
+  .left:hover {
+    transform: scaleX(1.05); /* increase width by 5% */
+  }
+  
+  .right {
+    background: url('./Visuals/Music-Wallpaper.png') no-repeat center center/cover;
+  }
+  
+  .right:hover {
+    transform: scaleX(1.05); /* increase width by 5% */
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+  }
+  
